@@ -2078,7 +2078,7 @@ line-height: 32px;
 }
 .join .plan{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
 }
