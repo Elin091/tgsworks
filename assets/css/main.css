@@ -281,7 +281,7 @@ section {
     width: 100%;
     padding: 4em 0;
     overflow: hidden;
-    background-color: #167e9c;
+    background-color: #d48f16;
 }
 
 @media screen and (max-width:1024px) {
@@ -1516,7 +1516,7 @@ section .intro {
     }
 }
 .about{
-    background-color: #d48f16;
+    background-color: #167e9c;
 }
 .about .title p {
     font-size: 22px;
