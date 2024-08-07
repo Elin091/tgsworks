@@ -1516,7 +1516,7 @@ section .intro {
     }
 }
 .about{
-    background-color: #167e9c;
+    background-color: #d48f16;
 }
 .about .title p {
     font-size: 22px;
@@ -2688,3 +2688,8 @@ body::-webkit-scrollbar {
         padding: 0px;
     }
 }
+
+
+
+
+
