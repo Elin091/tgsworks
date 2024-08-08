@@ -2689,6 +2689,27 @@ body::-webkit-scrollbar {
 }
 
 
+/* 將這個樣式添加到你的 main.css 文件中 */
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0; /* 調整間距 */
+}
 
+.title h2 {
+    text-align: center;
+}
 
+.narrow-text {
+    max-width: 800px; /* 限制最大寬度 */
+    margin: 0 auto; /* 置中 */
+    text-align: left; /* 文字靠左對齊 */
+}
 
+.large-image {
+    width: 80%; /* 調整圖片寬度 */
+    max-width: 700px; /* 設置圖片最大寬度 */
+    height: auto; /* 確保圖片按比例縮放 */
+}
