@@ -2713,3 +2713,9 @@ body::-webkit-scrollbar {
     max-width: 700px; /* 設置圖片最大寬度 */
     height: auto; /* 確保圖片按比例縮放 */
 }
+
+  @media (max-width: 600px) {
+    div {
+      flex-direction: column;
+    }
+  }
