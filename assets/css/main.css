@@ -2102,6 +2102,8 @@ line-height: 32px;
 
 .join .plan__item--2{
     background: linear-gradient(310deg, #056876 36%, #5798ab 77%,  #056876 98%);
+    width: 325px;
+    margin: 0 auto;
 }
 
 .join .plan__item__title h3 {
@@ -2719,3 +2721,12 @@ body::-webkit-scrollbar {
       flex-direction: column;
     }
   }
+
+
+#countdownTimer {
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
