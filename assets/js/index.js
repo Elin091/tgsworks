@@ -55,3 +55,36 @@ $(".popup .close").click(function () {
     $(".popup").fadeOut();
 });
 
+
+function countdown() {
+  const countDate = new Date("Sep 30, 2024 23:59:59").getTime();
+  const now = new Date().getTime();
+  const gap = countDate - now;
+
+  // How does time work?
+  const second = 1000;
+  const minute = second * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+
+  // Calculate
+  const textDay = Math.floor(gap / day);
+  const textHour = Math.floor((gap % day) / hour);
+  const textMinute = Math.floor((gap % hour) / minute);
+  const textSecond = Math.floor((gap % minute) / second);
+
+  document.getElementById("days").innerText = textDay;
+  document.getElementById("hours").innerText = textHour;
+  document.getElementById("minutes").innerText = textMinute;
+  document.getElementById("seconds").innerText = textSecond;
+
+  // When countdown finishes
+  if (gap < 0) {
+    clearInterval(timer);
+    document.getElementById("countdownTimer").innerText = "時間已到！";
+  }
+}
+
+// Update every second
+let timer = setInterval(countdown, 1000);
+
